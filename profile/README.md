@@ -8,6 +8,8 @@ The emphasis is **structural clarity over feature accumulation**.
 
 ---
 
+## **A workshop publishing versioned architectural artifacts in public.**
+
 ## The Stack
 
 ### ForgeEcosystem
