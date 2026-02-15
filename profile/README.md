@@ -1,84 +1,114 @@
-# \# Mettle Forge Lab
+# Mettle Forge Lab
 
 # 
 
-# Mettle Forge Lab develops layered architectures for governable language systems.  
+# Mettle Forge Lab develops layered architectures for governable language systems.
 
-# Its work separates constitutional constraints, control-system behavior, runtime packaging, and deterministic tooling into distinct repositories.  
+# 
+
+# Its work separates constitutional constraints, control-system behavior, runtime packaging, and deterministic tooling into distinct repositories.
+
+# 
 
 # The emphasis is structural clarity over feature accumulation.
 
 # 
 
-# ---
+# Stack Overview
 
 # 
 
-# \## Stack Overview
-
-# 
-
-# \*\*ForgeEcosystem\*\*  
-
-# Constitutional layer.  
+# ForgeEcosystem — Constitutional layer.
 
 # Defines invariants, membranes, and governance constraints.
 
 # 
 
-# \*\*ConditionalBoundedness\*\*  
-
-# Control-system architecture.  
+# ConditionalBoundedness — Control-system architecture.
 
 # Specifies switching behavior, contraction/expansion logic, and stopping criteria within constitutional bounds.
 
 # 
 
-# \*\*BoundedRuntime\*\*  
+# BoundedRuntime — Runtime rule deck.
 
-# Runtime rule deck.  
-
-# Provides deployable KBIN artifacts and coherence band modeling.  
+# Provides deployable KBIN artifacts and coherence band modeling.
 
 # Introduces no new constitutional invariants.
 
 # 
 
-# \*\*DataDiddler\*\*  
-
-# Deterministic semantic tool layer.  
+# DataDiddler — Deterministic semantic tool layer.
 
 # Operates independently from switching and governance layers.
 
 # 
 
-# ---
+# Dependency Structure
 
 # 
 
-# \## Dependency Structure
-
-# 
-
-# ForgeEcosystem → ConditionalBoundedness → BoundedRuntime  
+# ForgeEcosystem → ConditionalBoundedness → BoundedRuntime
 
 # DataDiddler operates independently at the tool layer.
 
 # 
 
-# Constitution governs invariants.  
+# Constitution governs invariants.
 
-# Control governs switching behavior.  
+# Control governs switching behavior.
 
 # Runtime governs deployment packaging.
 
 # 
 
-# ---
+# Mettle Forge Lab maintains separation between these layers to reduce ambiguity, preserve audit surfaces, and prevent scope bleed across repositories.
 
 # 
 
-# Mettle Forge Lab maintains separation between these layers to reduce ambiguity, preserve audit surfaces, and prevent scope bleed across repositories.
+# What This Is
 
+# 
 
+# A workshop publishing versioned architectural artifacts in public.
+
+# 
+
+# What This Is Not
+
+# 
+
+# Not a manifesto.
+
+# Not a product funnel.
+
+# Not a feature aggregation surface.
+
+# 
+
+# Why This Will Render Cleanly
+
+# 
+
+# Headings use ## and ### correctly.
+
+# 
+
+# Two spaces at line ends enforce clean line breaks.
+
+# 
+
+# Bullet blocks improve scannability.
+
+# 
+
+# Sections are clearly separated.
+
+# 
+
+# No raw formatting artifacts.
+
+# 
+
+# No dense paragraph walls.
 
