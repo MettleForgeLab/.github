@@ -8,12 +8,11 @@ The emphasis is **structural clarity over feature accumulation**.
 
 ---
 
-## **A workshop publishing versioned architectural artifacts in public.**
+## A workshop publishing versioned architectural artifacts in public.
 
 ## The Stack
 
-### ForgeEcosystem
-
+### ForgeEcosystem  
 **Constitutional layer**
 
 Defines invariants, membranes, and governance constraints.  
@@ -21,8 +20,7 @@ Sets the non-overrideable boundaries.
 
 ---
 
-### ConditionalBoundedness
-
+### ConditionalBoundedness  
 **Control-system architecture**
 
 Specifies switching behavior, contraction/expansion logic, and stopping criteria within constitutional bounds.
@@ -31,8 +29,7 @@ This layer governs how behavior adapts.
 
 ---
 
-### BoundedRuntime
-
+### BoundedRuntime  
 **Runtime rule deck**
 
 Provides deployable KBIN artifacts and coherence band modeling.
@@ -42,8 +39,18 @@ Implements and translates upstream architecture into portable runtime form.
 
 ---
 
-### DataDiddler
+### DADI-Engine  
+**Deterministic artifact execution substrate**
 
+A reproducible, hash-verifiable execution and indexing engine.
+
+Enforces byte-stable outputs, deterministic queries, and trust-governed mutation.
+
+Provides the deterministic foundation beneath higher-level systems.
+
+---
+
+### DataDiddler  
 **Deterministic semantic tooling**
 
 A mechanism-level tool for inspecting and structuring document meaning.
@@ -54,11 +61,11 @@ Operates independently from switching and governance layers.
 
 ## Dependency Structure
 
-DataDiddler operates at the tool layer.
-
 - Constitution governs invariants.
 - Control governs switching behavior.
 - Runtime governs deployment packaging.
+- DADI governs deterministic artifact execution.
+- DataDiddler operates at the semantic tooling layer.
 
 ---
 
