@@ -137,7 +137,7 @@ It is not:
 - an engagement optimization stack  
 
 It is a layered engineering workshop.
-```
+
 
 This layer governs how behavior adapts.
 
