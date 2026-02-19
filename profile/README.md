@@ -2,7 +2,7 @@
 
 
 # Mettle Forge Lab
-```
+
 
 **Layered architectures for governable language systems.**
 
