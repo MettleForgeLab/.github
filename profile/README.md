@@ -1,10 +1,8 @@
-mettle_forge_lab_v1_0.md
-
 # Mettle Forge Lab
 
 **Layered architectures for governable language systems.**
 
-Mettle Forge Lab develops systems where constitutional constraints, switching logic, scalar regulation, runtime packaging, deterministic execution, and substrate hosting are separated by design — not merged by convenience.
+Mettle Forge Lab develops systems where constitutional constraints, switching logic, scalar regulation, runtime packaging, and deterministic tooling are separated by design.
 
 The emphasis is **structural clarity over feature accumulation**.
 
@@ -12,7 +10,27 @@ The emphasis is **structural clarity over feature accumulation**.
 
 ## A workshop publishing versioned architectural artifacts in public.
 
+---
+
 ## The Stack
+
+```text
+ForgeEcosystem
+↓
+ConditionalBoundedness
+↓
+ARIA-Regulation-Layer
+↓
+BoundedRuntime
+↓
+DADI-Engine / DataDiddler
+↓
+LaForge Execution Stack
+```
+
+---
+
+## Governance Stack (Upstream)
 
 ### ForgeEcosystem  
 **Constitutional layer**
@@ -25,113 +43,141 @@ Sets non-overrideable boundaries for all downstream systems.
 ### ConditionalBoundedness  
 **Switching control layer**
 
-Specifies contraction/expansion behavior, mode transitions, and stopping criteria within constitutional bounds.
-
-Governs how systems adapt — not what they are allowed to become.
+Defines contraction and expansion logic under constitutional constraints.  
+Does not define invariants or execution mechanics.
 
 ---
 
 ### ARIA-Regulation-Layer  
-**Scalar runtime regulation**
+**Scalar regulation layer**
 
-Implements deterministic readiness computation, gain scheduling, envelope enforcement, and commit-boundary discipline.
+Defines:
 
-Includes:
-
-- Cross-layer integrity contract  
-- Bounded event membrane  
-- Signal provenance standard  
+- Event membrane enforcement  
+- Configuration freeze boundaries  
+- Deterministic telemetry classification  
 - Governance escalation ladder  
 - Multi-model consistency envelope  
-- ζ-envelope convergence verification  
 
-Introduces no new constitutional invariants.
+Implements regulation contracts without redefining constitutional or switching logic.
 
 ---
 
 ### BoundedRuntime  
-**Deployment rule deck**
+**Runtime packaging layer**
 
-Translates upstream architecture into portable runtime artifacts (KBIN, coherence bands).
+Provides portable KBIN artifacts implementing upstream governance and scalar regulation constraints.
 
-Implements runtime packaging without modifying invariants or switching logic.
+Introduces no new invariants.
 
 ---
 
 ### DADI-Engine  
-**Deterministic artifact execution substrate**
+**Deterministic substrate layer**
 
-Provides reproducible, hash-verifiable execution and indexing.
-
-Enforces byte-stable outputs, deterministic queries, and trust-governed mutation.
-
-Forms the deterministic foundation beneath higher-level systems.
+Defines canonical artifact execution, toolchain constraint enforcement, fail-closed execution, and commit discipline.
 
 ---
 
 ### DataDiddler  
-**Deterministic semantic tooling**
+**Deterministic semantic tooling layer**
 
-A mechanism-level tool for inspecting and structuring document meaning.
-
-Operates independently from switching, governance, and scalar regulation layers.
-
----
-
-### LaForge (Substrate Stack)  
-**Execution host and orchestration environment**
-
-Provides:
-
-- Dual-model serving  
-- Chest Engine orchestration  
-- Scroll mechanism layer  
-- Domain engines  
-- Observer and UI surfaces  
-- Substrate guarantees required for ARIA hosting  
-
-Implements execution without redefining governance layers.
+Provides deterministic inspection and semantic structuring of artifacts.  
+Independent of governance and switching layers.
 
 ---
 
-## Dependency Structure
+## LaForge Execution Stack (Downstream)
 
-Constitution defines invariants.
-
-Switching defines adaptive behavior.
-
-Scalar regulation enforces bounded control.
-
-Runtime packages deployable artifacts.
-
-DADI ensures deterministic artifact execution.
-
-Substrate hosts execution under declared guarantees.
-
-Tooling operates at the semantic inspection layer.
-
-No lower layer may redefine a higher one.
+### laforge-substrate  
+Hardware and container substrate for node bring-up.
 
 ---
 
-## Verification Posture
-
-Where claims are made about bounded convergence, determinism, or envelope enforcement, verification artifacts are published.
-
-Governance is enforced by contract, not convention.
+### laforge-model-serving  
+Stable A/B model endpoint exposure layer.
 
 ---
 
-## Posture
+### forgeos-mechanisms  
+Content-free control mechanisms and deterministic contract surfaces.
 
-This organization publishes versioned architectural artifacts in public.
+---
+
+### forge-domains  
+Declarative role, domain, ritual, and atlas bundles.
+
+---
+
+### chest-engine  
+Runtime orchestration layer:
+
+- Dual-model execution  
+- Event membrane enforcement  
+- Deterministic commit artifacts  
+- Replay interface  
+
+---
+
+### weave-observer-ui  
+Read-only visualization layer for replay inspection and observability.
+
+---
+
+### laforge-ops-verification  
+Verification and certification layer:
+
+- Deterministic replay enforcement  
+- Compatibility matrix validation  
+- Node certification  
+- Governance escalation binding  
+
+---
+
+## Determinism Model
+
+### Deterministic
+
+- Routing decisions  
+- Gating parameters  
+- Configuration snapshots  
+- Commit artifacts  
+- Replay proofs  
+
+### Not Deterministic
+
+- Token sampling  
+
+Governance applies to the control plane, not stochastic output.
+
+---
+
+## Design Posture
+
+This organization is:
+
+- Layered  
+- Contract-first  
+- Replay-verifiable  
+- Audit-oriented  
+- Local-first  
 
 It is not:
 
-- a product funnel  
-- a manifesto  
-- a feature aggregation surface  
-- a personality system  
-- an engagement optimization stack  
+- A monolith  
+- A cloud abstraction  
+- A personality stack  
+- A feature funnel  
 
-It is a layered engineering workshop.
+---
+
+Governance defines.  
+Control constrains.  
+Regulation enforces envelopes.  
+Runtime packages.  
+Substrate executes.  
+Mechanisms compute.  
+Domains declare.  
+Chest orchestrates.  
+UI observes.  
+Ops verifies.
